@@ -1,0 +1,93 @@
+/* SOSER SEO V4 — Admin Styles */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+.soser-wrap { font-family: 'Tajawal', Tahoma, sans-serif; max-width: 1300px; }
+.soser-wrap h1 { font-size: 22px; margin-bottom: 20px; }
+.soser-wrap h2 { font-size: 15px; margin-top: 0; border-bottom: 1px solid #f0f0f0; padding-bottom: 10px; }
+
+/* Cards */
+.soser-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.soser-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Stats row */
+.soser-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.stat-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 14px 20px;
+  min-width: 120px;
+  text-align: center;
+}
+.stat-num { font-size: 32px; font-weight: 900; line-height: 1; }
+.stat-lbl { font-size: 12px; color: #888; margin-top: 4px; }
+
+/* Info bar */
+.soser-info-bar {
+  background: #f0f6fc;
+  border: 1px solid #b8d4f0;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 13px;
+  margin-bottom: 16px;
+  color: #1a4a7a;
+}
+
+/* Tables */
+.soser-table { border-collapse: collapse; font-size: 12px; }
+.soser-table th {
+  background: #f6f7f7;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 700;
+  text-align: right;
+}
+.soser-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+.soser-table tr:hover td { background: #fafafa; }
+
+/* Badges */
+.soser-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.soser-badge-done    { background: #edfaef; color: #00a32a; }
+.soser-badge-failed  { background: #fdecea; color: #d63638; }
+.soser-badge-running { background: #fff8e1; color: #f0a500; }
+.soser-badge-pending { background: #f0f6fc; color: #2271b1; }
+
+/* API result */
+#soser-api-result { font-size: 12px; font-weight: 700; margin-right: 8px; }
+#soser-scan-result { font-weight: 600; }
+
+/* Code inputs */
+textarea.code { font-family: monospace; font-size: 12px; }
+
+/* Opportunity bar */
+.opp-bar { display: flex; align-items: center; gap: 6px; }
+.opp-fill { height: 8px; border-radius: 4px; }
+/* V5.9: Hidden external links - visible to Google, hidden to users */
+.v59-hidden-links { display: none; }
