@@ -1,0 +1,76 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/node_modules/
+/vendor/
+composer.lock
+package-lock.json
+
+# Build/Dist
+/dist/
+/build/
+*.min.js
+*.min.css
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+/tmp/
+/temp/
+*.tmp
+
+# Cache
+.cache/
+wp-cache/
+
+# Database backups
+*.sql
+*.sql.gz
+*.db
+*.sqlite
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# WordPress specific
+wp-config-local.php
+wp-content/uploads/
+wp-content/backup/
+
+# Test files
+/tests/coverage/
+.phpunit.cache
+phpunit.xml
+
+# Development files
+.editorconfig
+.eslintrc
+.stylelintrc
+prettier.config.js
+
+# Misc
+*.bak
+*.backup
+*~
+.history/
